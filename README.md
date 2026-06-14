@@ -106,7 +106,7 @@ Copyright © 2026 Kryvex.
 
 No permission is granted to copy, modify, redistribute, sublicense, or create derivative works from this project without explicit authorization.
 
-# KRYVEX
+# CN 
 
 > 基于 Rust 构建的 Lua 虚拟化混淆器
 
