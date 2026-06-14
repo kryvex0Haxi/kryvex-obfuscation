@@ -1,5 +1,3 @@
-# kryvex_lua-obfuscation
-
 # KRYVEX
 
 > A Rust-powered Lua Virtualization Obfuscator
@@ -107,3 +105,106 @@ All Rights Reserved.
 Copyright © 2026 Kryvex.
 
 No permission is granted to copy, modify, redistribute, sublicense, or create derivative works from this project without explicit authorization.
+
+# KRYVEX
+
+> 基于 Rust 构建的 Lua 虚拟化混淆器
+
+KRYVEX 是一个面向 Lua 生态的虚拟化保护框架，支持 Lua 5.x 系列以及 Luau 字节码保护。
+
+目前项目仍处于持续开发阶段。
+
+---
+
+## ✨ 项目特性
+
+### 🔒 虚拟化执行
+
+通过自定义虚拟机执行模型运行目标字节码，降低静态分析难度。
+
+### ⚡ 多版本支持
+
+支持：
+
+- Lua 5.1
+- Lua 5.2
+- Lua 5.3
+- Lua 5.4
+- Lua 5.5
+- Luau
+- Roblox
+
+### 🧠 闭包与 Upvalue 支持
+
+支持复杂闭包环境以及 Upvalue 生命周期管理。
+
+### 📦 输出体积优化
+
+内置字节码压缩与打包流程。
+
+### 🎲 构建随机化
+
+每次构建均会生成不同的运行时结构与内部标识符。
+
+---
+
+## 🏗️ 整体架构
+
+```text
+Lua Source
+    │
+    ▼
+Bytecode Compiler
+    │
+    ▼
+Intermediate Representation
+    │
+    ▼
+Virtualization
+    │
+    ▼
+Packing
+    │
+    ▼
+Protected Script
+```
+
+---
+
+## 📊 项目状态
+
+| 项目 | 状态 |
+|--------|--------|
+| 开发状态 | Active |
+| 编程语言 | Rust |
+| 项目类型 | Virtualization Obfuscator |
+| 许可证 | All Rights Reserved |
+
+---
+
+## 🚀 开发目标
+
+- 支持 Lua 5.x 全系列
+- 支持 Luau
+- 提升运行效率
+- 完善闭包支持
+- 持续优化输出体积
+- 增强虚拟机随机化能力
+
+---
+
+## 📖 说明
+
+本仓库用于展示 KRYVEX 项目的开发进度与相关文档。
+
+核心虚拟化技术当前未公开发布。
+
+---
+
+## 📄 许可证
+
+All Rights Reserved
+
+Copyright © 2026 KRYVEX
+
+未经授权，禁止复制、修改、分发或创建衍生作品。
